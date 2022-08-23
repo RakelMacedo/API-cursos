@@ -55,7 +55,7 @@ $ python3 manage.py migrate
 ```  
 <br>
 
-## ⚠️ ATENÇÃO
+### ⚠️ ATENÇÃO
 
 Nossa API está configurada para **apenas** usuários que passem seu **Token** possam usar os métodos **POST, PUT e DELETE.**
 
@@ -80,7 +80,7 @@ REST_FRAMEWORK = {
    
 <br>
 
-### Criando um super usuário e gerando um Token:
+### ⚙️ Criando um super usuário e gerando um Token:
 
 - Crie um super usuário informando os dados requisitados:
 ``` 
@@ -105,11 +105,11 @@ http://127.0.0.1:8000/admin/
 - Agora, vamos gerar um Token para você!
 
 Após o Login, em **Tokens** clique em *Adicionar* > *Selecione o usuario* > *Salvar* 
+
 <br>
+
 ![api-cursos](https://user-images.githubusercontent.com/78339857/186071486-8d157c0c-8e5a-4104-8ac3-a993d1da812a.jpg)
 
-
-
-
+<br>
 
 ### ✅ Com o servidor rodando, basta você visitar os endpoints do projeto com o seu navegador ou ferramenta preferida para testar APIs como o Postman ou Insomnia! =)
