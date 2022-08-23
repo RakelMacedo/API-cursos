@@ -9,8 +9,6 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 
-Token = c5ab3349b1dcad47fb2d3a1b34eb556bf984ac7d
-
 """
 
 from pathlib import Path
